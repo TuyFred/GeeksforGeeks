@@ -1,0 +1,419 @@
+﻿
+================================================================================
+CHAPTER-ALL-THREE(1).docx paras 405 tables 1
+[Normal] DEVELOPMENT OF VEHICLE MOVEMENT BASED STREET LIGHTS WITH EXTERNAL LIGHTS SENSING
+[Normal] A case of Remera to Kabuga Road
+[Normal] Fullname
+[Normal] RegNumber
+[Body Text] A research proposal submitted to the university of Kigali in partial fulfilment of the requirements for the award of a bachelorÆs degree with honors in computer science.
+[Body Text] October, 2025
+[Heading 1] DECLARATION
+[Normal] This dissertation is my original work and has not been submitted previously for a degree at this or any other university/institute. To the best of my knowledge, it does not contain
+[Normal] Signature: . . . . . . . . . . . . . . . . . . . . . . . . 		Date:   . . ..  / . . .   / . . . . .
+[Normal] Full name
+[Heading 1] APPROVAL
+[Body Text] This is to confirm that I have reviewed and approved the submission of this dissertation. It meets the necessary requirements for submission.
+[Normal] Signature: . . . . . . . . . . . . . . . . . . . . . . . .           		Date:   . . ..  / . . .   / . . . . .
+[Body Text] Supervisor name
+[Heading 1] ACKNOWLEDGEMENT
+[Normal (Web)] I would like to express my heartfelt gratitude to everyone who has supported me throughout my academic journey and made the completion of this project possible. First and foremost,
+[Heading 1] ABSTRACT
+[Normal (Web)] This research focuses on the design and development of an Internet of Things (IoT)-based intelligent street-lighting system that integrates vehicle movement detection and external-
+[Normal (Web)] Keywords: Internet of Things (IoT), Intelligent Street Lighting, Vehicle Movement Detection, Ambient-Light Sensing, Microcontroller, Energy Efficiency.
+[Heading 1] LIST OF Figures
+[table of figures] Figure 1: conceptual Frame work	29
+[Heading 1] List of Tables
+[table of figures] Table 1: sample section data	34
+[Heading 1] CHAPTER ONE: GENERAL INTRODUCTION AND BACKGROUND TO THE STUDY
+[Heading 2] 1.0 Introduction
+[Normal] Street lighting is an important component of modern road infrastructure because it provides visibility for motorists, pedestrians, cyclists, and other road users during periods of 
+[Normal] The development of sensing and embedded-control technologies has created opportunities to improve the way street lights operate. Smart street-lighting can use sensors to identify e
+[Normal] This study proposes a Vehicle Movement-Based Street Lighting IOT with External Light Sensing for the RemeraûKabuga main road in Rwanda. The proposed IOT will combine external-light
+[Normal] The proposed IOT will operate according to environmental and traffic conditions. During daylight or when sufficient external light is available, the street lights can remain switch
+[Normal] The study will focus on the design, development, and testing of a prototype IOT based on sensing and automatic control technologies. It will investigate the suitability of vehicle 
+[Heading 2] 1.1 Background to the Study
+[Normal] Street lighting has become an essential part of urban and transport infrastructure. Proper roadway illumination supports visibility and contributes to the safe movement of road use
+[Normal] Traditional street-lighting generally operate according to predetermined schedules. Such IOT can provide a consistent level of illumination, but they do not necessarily respond to 
+[Normal] The development of smart street-lighting technologies has introduced a different approach to roadway illumination. Mahoor et al. (2020) describe smart street-lighting IOT as IOT th
+[Normal] One of the major approaches used in smart street lighting is adaptive lighting. Instead of keeping every lamp at the same brightness throughout the night, adaptive IOT change the l
+[Normal] Vehicle movement detection is particularly relevant to this study. Samarawera and Vidanapathirana (2017) developed a vehicle-movement-based street-lighting prototype using infrared
+[Normal] Similarly, Al-Smadi et al. (2021) proposed an intelligent street-lighting energy-saving IOT based on climate conditions and vehicle movement. Their IOT used an LDR to detect surrou
+[Normal] The use of external-light sensing is important because vehicle movement alone cannot determine whether artificial lighting is necessary. During daytime, vehicles may be moving cont
+[Normal] An external-light sensor such as a Light Dependent Resistor (LDR) can be used to measure changes in surrounding light intensity. When the surrounding environment is bright, the IOT
+[Normal] Smart street-lighting research has also demonstrated the possibility of controlling groups of lights rather than simply switching all lights on or off. Gagliardi et al. (2020), thr
+[Normal] In Rwanda, the relevance of intelligent street lighting is particularly important because street lighting is part of the country's broader urban infrastructure. Rwanda Energy Group
+[Normal] Research conducted in Rwanda has already examined smart street-lighting technologies. Twesigye (2022), in research conducted through the University of Rwanda, developed an embedded
+[Normal] However, the proposed study differs in its specific focus. Rather than concentrating primarily on fuzzy-logic control, this research will investigate a practical vehicle-movement-b
+[Normal] The RemeraûKabuga main road provides a relevant context for investigating adaptive roadway lighting because the proposed research is concerned with the relationship between road-us
+[Normal] The proposed IOT will consist of an external-light sensor, vehicle-movement detection sensors, a microcontroller or embedded controller, and controllable LED street lights. The con
+[Normal] , the study is intended to contribute to the development of an affordable and practical approach to intelligent roadway lighting in Rwanda by combining environmental sensing and ve
+[Heading 2] 1.2 Statement of the Problem
+[Normal] Street lighting is necessary for providing visibility and supporting safe movement on roads during hours of darkness. However, conventional street-lighting IOT may continue operati
+[Normal] A major limitation of conventional lighting is that it generally does not respond dynamically to road activity. During periods of low traffic, street lights may continue operating 
+[Normal] Existing research has demonstrated that adaptive street-lighting can use sensors to detect movement and environmental conditions. For example, vehicle-based lighting IOT have been 
+[Normal] However, many existing IOT are designed as general prototypes, simulations, or implementations in locations with different road, traffic, environmental, and infrastructure conditio
+[Normal] The absence of such a locally focused IOT creates an opportunity to investigate whether vehicle movement and external-light information can be integrated into a simple automatic co
+[Heading 2] 1.3 Objectives of the Study
+[Heading 3] 1.3.1 General Objective
+[Normal] The general objective of this study is to design and develop a vehicle movement-based street-lighting IOT with external-light sensing for improved energy-efficient lighting on the 
+[Normal] Specific Objectives
+[List Paragraph] To assess the existing street-lighting conditions and determine the lighting requirements along the RemeraûKabuga main road.
+[List Paragraph] To identify and evaluate suitable sensing technologies for detecting ambient light conditions and vehicle movement in street-lighting applications.
+[List Paragraph] To design and develop an IoT-based intelligent street-lighting system that integrates     ambient-light sensing and vehicle movement detection for automated control of street light
+[Heading 2] 1.3.2 Research Questions
+[List Paragraph] What are the existing street-lighting conditions and lighting requirements along the RemeraûKabuga main road?
+[List Paragraph] Which sensing technologies are suitable for detecting ambient light conditions and vehicle movement in an intelligent street-lighting system?
+[List Paragraph] How can ambient-light sensing and vehicle movement detection be integrated into an IoT-based system for automated street-light control?
+[Heading 2] 1.4 Significance/Importance of the Study
+[Heading 3] 1.4.1 Road Users
+[Normal] The proposed IOT is expected to contribute to the provision of appropriate illumination for motorists, pedestrians, cyclists, and other road users during periods of darkness. By re
+[Heading 3] 1.4.2 Road Safety and Security Stakeholders
+[Normal] Adequate roadway illumination is an important consideration in road infrastructure. The study may provide useful information to stakeholders interested in improving the responsiven
+[Heading 3] 1.4.3 Rwanda Energy Group and Energy Stakeholders
+[Normal] The study may provide information on how sensor-based control can be applied to roadway lighting to reduce unnecessary operation. Rwanda Energy Group's street-lighting standards em
+[Heading 3] 1.4.4 Kigali City and Local Authorities
+[Normal] The study may provide local authorities with an example of how smart sensing technologies can be integrated into public infrastructure. The prototype can serve as a basis for consi
+[Heading 3] 1.4.5 Engineers and Technologists
+[Normal] The study will provide a practical example of integrating external-light sensors, vehicle-movement sensors, an embedded controller, and LED lighting. It may be useful to students, 
+[Heading 3] 1.4.6 Future Researchers
+[Normal] The research will provide a foundation for future studies involving more advanced vehicle detection, wireless communication, artificial intelligence, traffic-density estimation, so
+[Heading 3] 1.4.7 The Academic Community
+[Normal] The study will contribute to academic knowledge concerning adaptive street lighting and sensor-based energy management, particularly within the Rwandan context. It will also demons
+[Heading 2] 1.5 Scope of the Study
+[Heading 3] 1.5.1 Content Scope
+[Normal] The study will focus on the design, development, and testing of a vehicle movement-based street-lighting IOT with external-light sensing. The IOT will primarily include external-li
+[Normal] The study will not attempt to develop a complete city-wide smart-lighting management platform. Advanced features such as large-scale cloud management, artificial-intelligence-based
+[Heading 3] 1.5.2 Time Scope
+[Normal] The research will be conducted during the period approved by the academic institution. The study period will include literature review, field observation, requirements analysis, IO
+[Heading 3] 1.5.3 Geographical Scope
+[Normal] The study will focus on the RemeraûKabuga main road in Rwanda as the case-study area. The research will use the selected road environment to investigate the relationship between ve
+[Normal] The findings will primarily represent the conditions and prototype testing performed within the selected study area. The results should not automatically be generalized to every ro
+[Heading 2] 1.6 Limitations
+[Normal] The study may face several limitations during its implementation. One potential limitation is the availability of accurate information concerning existing street-lighting infrastru
+[Normal] Another limitation is the performance of vehicle-detection sensors under different environmental and traffic conditions. Sensors may produce false detections or fail to detect cert
+[Normal] Another limitation is the difference between a prototype environment and a fully operational roadway installation. A prototype may use a smaller number of lamps and sensors than wo
+[Normal] Time is another potential limitation. The research period may not allow long-term monitoring of the IOT across all possible traffic and weather conditions. To reduce the effect of 
+[Normal] Finally, the geographical scope of the study is limited to the RemeraûKabuga main road. Conditions observed in this location may differ from those found on other roads in Kigali or
+[Heading 1] CHAPTER TWO: LITERATURE REVIEW
+[Heading 2] 2.0 Introduction
+[Normal (Web)] This chapter presents a review of literature related to the development of a vehicle movement-based street-lighting Internet of Things (IoT) system with external-light sensing for 
+[Normal (Web)] The chapter reviews the concepts, technologies, theories, and previous empirical studies relevant to intelligent and adaptive street lighting. Particular attention is given to conv
+[Normal (Web)] The literature review is organized into conceptual review, theoretical review, empirical review, research gap, conceptual framework, and summary. The purpose is not only to describ
+[Heading 2] 2.1 Conceptual Review
+[Heading 3] 2.1.1 Street Lighting
+...truncated...
+
+================================================================================
+capston-project.docx paras 2 tables 0
+
+================================================================================
+capston-project.docx paras 234 tables 4
+[Normal] CAPSTONE PROJECT PROPOSAL DEVELOPMENT
+[Normal] TUNGA FINANCIAL   INTELLIGENCE PLATFORM
+[Normal] Case Study: National Bank of Rwanda (BNR)
+[Normal] Bachelor of Technology (B-Tech) in Information Technology
+[Normal] Module: Capstone Project
+[Normal] Prepared by:  Fred Tuyishime
+[Normal] Registration Number: 26RP00598
+[Normal] Level 8
+[Normal] Date: 2 October 2026
+[Normal] Table of content
+[toc 1] 1. Organization	5
+[toc 2] 1.1 Role of BNR in the Study	5
+[toc 2] 1.2 GERERANYA as an Existing BNR Digital Financial-Information Platform	6
+[toc 2] 1.3 Institutional Boundary	7
+[toc 1] 2. Background of the Study	7
+[toc 2] 2.1 Growth of digital financial services	7
+[toc 2] 2.2 Rwanda financial inclusion context	7
+[toc 2] 2.3 BNR's Digital Financial-Information Context and GERERANYA	8
+[toc 2] 2.4 Financial literacy and digital financial literacy	8
+[toc 2] 2.5 Financial health	9
+[toc 2] 2.6 Digital delivery of financial education	9
+[toc 2] 2.7 Small-business financial intelligence	9
+[toc 2] 2.8 Artificial intelligence in finance	9
+[toc 2] 2.9 Rwanda policy context	10
+[toc 1] 3. Problem Statement	10
+[toc 2] 3.1 Problem 1 : Unclear spending and financial health	10
+[toc 2] 3.2 Problem 2 :Limited personalized planning	10
+[toc 2] 3.3 Problem 3 : Limited business intelligence	10
+[toc 1] 4. Main Objective	11
+[toc 2] 5..1 Specific Objectives	11
+[toc 2] 5.2  Research Questions	11
+[toc 1] 6. Research Hypotheses	12
+[toc 1] 7. Proposed Functional Scope	12
+[toc 2] 7.1 Scope limitations	13
+[toc 2] 7.3 Relationship with GERERANYA	13
+[toc 1] 8. Significance of the Study	14
+[toc 2] 8.1 Significance to customers	14
+[toc 2] 8.2 Significance to the selected institution	14
+[toc 2] 8.3 Significance to small businesses	14
+[toc 2] 8.4 Academic significance	14
+[toc 2] 8.5 Research significance	14
+[toc 1] 9. Conceptual Framework	15
+[toc 2] 9.1 Logic of the framework	15
+[toc 1] 10 Research Evidence and Literature Base	16
+[toc 1] 10.1 Financial inclusion and access	16
+[toc 2] 10.2 Rwanda evidence	16
+[toc 3] 10.3 BNR and GERERANYA as Institutional Evidence	16
+[toc 2] 11 Financial literacy	16
+[toc 1] References	17
+[Normal] LIS OF TABLES
+[table of figures] Table 1 : Table of Hypotesis 	12
+[table of figures] Table 2 : Function scope table 	13
+[table of figures] Table 3 : conceptual Framework table 	15
+[Heading 1] 1. Organization
+[Normal] National Bank of Rwanda (BNR)
+[Normal] The National Bank of Rwanda (BNR) will be used as the case-study institution for the proposed Tunga Financial Intelligence Platform. BNR is Rwanda's central bank, with responsibili
+[Normal] BNR is relevant to Tunga because the proposed platform focuses on financial intelligence, financial information, financial analysis, reporting, financial literacy-oriented guidance
+[Heading 2] Role of BNR in the Study
+[Normal] BNR will provide the institutional and financial-sector case environment against which the requirements, design and potential applicability of Tunga can be examined.
+[Normal] The institution's role in the study will include:
+[Normal] 1. Providing the institutional and financial-sector context for the research.
+[Normal] 2. Helping identify relevant financial-information, consumer-information and reporting requirements.
+[Normal] 3. Providing publicly available financial and payment-system information and statistics where appropriate.
+[Normal] 4. Providing, subject to formal authorization, requirements or feedback concerning financial-data management, analytics, security and reporting.
+[Normal] 5. Supporting the identification of relevant security, privacy, access-control and compliance requirements.
+[Normal] 6. Providing an institutional environment against which the proposed platform's functionality, usability and transparency can be evaluated.
+[Heading 2] 1.2 GERERANYA as an Existing BNR Digital Financial-Information Platform
+[Normal] A key existing BNR platform relevant to this study is GERERANYA, the National Bank of Rwanda's financial-services cost comparison platform. GERERANYA enables users to compare finan
+[Normal] BNR's 2024û2025 Annual Report states that GERERANYA was upgraded to include a wider range of institutions beyond commercial banks, including MFIs/SACCOs, insurance companies, pensi
+[Normal] GERERANYA is therefore treated in this proposal as an existing institutional reference and benchmark, not as a system to be duplicated. Tunga will differentiate itself by concentra
+[Normal] The relationship between the two systems can therefore be described as complementary: GERERANYA helps users compare the costs of financial services, whereas Tunga is proposed to he
+[Heading 2] 1.3 Institutional Boundary
+[Normal] The proposed Tunga platform will be developed as an academic prototype and decision-support system, not as a replacement for BNR's existing financial, regulatory, payment, statisti
+[Normal] The project will not independently access confidential BNR records or protected financial information. Any use of non-public data, APIs, databases, internal systems or institutiona
+[Normal] Where institutional access is not granted, the prototype will use publicly available, anonymized, synthetic or researcher-generated data for development and testing. Public BNR res
+[Heading 1] 2. Background of the Study
+[Heading 2] 2.1 Growth of digital financial services
+[Normal] Digital financial services have expanded access to payments, savings, borrowing and other financial products. The World Bank Global Findex 2025 is based on nationally representativ
+[Normal] This growth creates a new information opportunity for financial institutions: transaction and service data can potentially be organized into understandable information that helps c
+[Heading 2] 2.2 Rwanda financial inclusion context
+[Normal] Rwanda's FinScope 2024 reports that financial inclusion reached 96%, up from 93% in 2020, while formal financial inclusion increased from 77% to 92%. The survey covered 14,000 hous
+[Normal] These figures establish a strong digital-finance context for a platform that focuses on how customers understand and use financial information, rather than only whether they have a
+[Heading 2] 2.3 BNR's Digital Financial-Information Context and GERERANYA
+[Normal] BNR's digital consumer-protection work provides a direct institutional context for Tunga. BNR's GERERANYA platform enables users to compare financial-service costs across regulated
+[Normal] GERERANYA demonstrates that financial information can be made more accessible through a digital interface. It also establishes an important design distinction for Tunga: Tunga shou
+[Normal] BNR also publishes payment-system statistics covering areas such as mobile banking, payment cards, mobile payments and internet banking. These public datasets can provide contextua
+[Heading 2] 2.4 Financial literacy and digital financial literacy
+[Normal] The OECD/INFE 2023 International Survey of Adult Financial Literacy examined financial knowledge, behaviour, attitudes, financial inclusion, digital financial literacy and financia
+[Normal] The same survey reported an average digital financial literacy score of 53 out of 100 across participating countries and economies. The OECD's 2024 measurement instrument defines d
+[Heading 2] 2.5 Financial health
+[Normal] Financial health is broader than account ownership. The Global Findex 2025 includes financial-health information, while financial-health frameworks seek to measure how people manag
+[Heading 2] 2.6 Digital delivery of financial education
+[Normal] OECD/INFE guidance states that digital technologies can support financial education when they are appropriately designed and implemented. This supports the Tunga approach of presen
+[Heading 2] 2.7 Small-business financial intelligence
+[Normal] Small businesses require usable information about income, expenses, profitability, margins, costs and growth. Tunga therefore includes a Business Financial Intelligence module that
+[Heading 2] 2.8 Artificial intelligence in finance
+[Normal] AI can support financial analysis and customer interaction, but financial applications require controls for data quality, privacy, model behaviour, explainability and human oversig
+[Normal] For this reason, Tunga's AI component is intentionally limited to AI-assisted financial-literacy guidance and explanation. It is not intended to make consequential financial decisi
+[Heading 2] 2.9 Rwanda policy context
+[Normal] The project also fits within Rwanda's wider digital-transformation environment. The national strategy context provides support for technology-enabled service improvement, while the
+...truncated...
+
+================================================================================
+PRINT_FINAL PROJECT (3) (1).docx paras 641 tables 4
+[Heading 1] DECLARATION
+[Body Text] I, IRASUBIZA BELYSE hereby declare that this research project titled "Smart plot hub" is my original work. It has not been submitted before for any academic award at this or any ot
+[Body Text] Signature:
+[Body Text] Name: IRASUBIZA BELYSE
+[Body Text] Registration Number: 2309000338 Date:
+[Heading 1] APPROVAL
+[Body Text] I, Dr. EUSTACHE UWIMANA certify that this research project entitled ôSMART PLOT HUBö is an original study conducted by IRASUBIZA BELYSE under my supervision and guidance.
+[Body Text] Signature:
+[Body Text] Date:
+[TOC Heading] TABLE OF CONTENTS
+[Heading 1] LIST OF FIGURES
+[toc 2] Figure 2.1. Conceptual framework 	16
+[toc 2] Figure 4.1. DFD Level 0 diagram	34
+[toc 2] Figure 4.2. DFD Level 1 diagram 	36
+[toc 2] Figure 4.3. Use case diagram 	37
+[toc 2] Figure 4.4. Data dictionary diagrams	39
+[toc 2] Figure 4.5. Data dictionary diagrams 	40
+[toc 2] Figure 4.6. ERD diagram	41
+[toc 2] Figure 4.7. Physical data model diagram	42
+[toc 2] Figure 4.8. Homepage interface 	46
+[toc 2] Figure 4.9. User guideline interface	47
+[toc 2] Figure 4.10. Log In interface 	48
+[toc 2] Figure 4.11. Admin Interface 	50
+[toc 2] Figure 4.11. Admin Interface 	51
+[toc 2] Figure 4.12. Property Owner Interface 	52
+[toc 2] Figure 4.13. Add plot details	52
+[toc 2] Figure 4.13. Add plot details 	53
+[toc 2] Figure 4.14. Tenant interface	54
+[toc 2] Figure 4.15. Messaging interface	55
+[Heading 1] LIST OF TABLES
+[toc 2] Table 3.1. Sample size 	20
+[toc 2] Table 4.1. Data analysis and presentation	26
+[toc 2] Table 4.2. Data analysis and presentation	26
+[toc 2] Table 4.3. Data analysis and presentation	27
+[Heading 1] ABSTRACT
+[isselectedend] The allocation and rental of commercial spaces such as plots, market stalls, business premises, and temporary vending spaces in Rwanda is still largely managed through manual proce
+[Normal] Keywords: Smart Plot Hub, Commercial Space Rental, Digital Allocation, Web-Based Platform, Property Management, Rwanda.
+[Heading 1] CHAPTER I: GENERAL INTRODUCTION
+[Heading 2] Introduction
+[Normal] The continued growth of Rwanda's economy, coupled with rapid urbanization and increasing private sector investment, has led to a rising demand for commercial spaces such as shops, 
+[Normal] Despite this growing demand, the allocation and rental of commercial spaces in many areas of Rwanda are still managed through manual processes that rely on physical visits, paper-b
+[Normal] The Government of Rwanda has identified digital transformation as a key driver for improving service delivery, promoting innovation, and enhancing economic competitiveness through 
+[Normal] To address these challenges, this study proposes the development of Smart Plot Hub, a web-based commercial space allocation and rental platform that connects property owners with p
+[Heading 2] 1.1 Background
+[Normal] Digital technologies have transformed the way services are delivered and managed across the world by improving efficiency, accessibility, and communication between service provider
+[Normal] The growing adoption of web-based platforms has enabled organizations to streamline operations, reduce transaction costs, and improve access to information in various sectors, incl
+[Normal] In many developing countries, digital transformation has become a key strategy for promoting economic growth, innovation, and improved service delivery (United Nations, 2024).
+[Normal] Across Africa, governments and private organizations are increasingly adopting digital solutions to address challenges related to resource allocation, urban management, and busines
+[Normal] Rwanda is recognized as one of the leading countries in Africa in embracing digital transformation through various national initiatives and policies that promote the use of informa
+[Normal] The Second National Strategy for Transformation (NST2) 2024û2029 identifies digital innovation and technology as important drivers of economic development and efficient service del
+[Normal] The growth of businesses in Rwanda has increased the demand for commercial spaces such as shops, offices, market stalls, and business plots that support business operations and eco
+[Normal] According to recent business statistics published by NISR, the number of registered business enterprises continues to increase, reflecting the expansion of entrepreneurship and pri
+[Normal] Despite this growth, the allocation and rental of commercial spaces in many areas of Rwanda are still managed through manual procedures, physical visits, and informal brokerage ser
+[Normal] Property owners often rely on personal networks, brokers, or physical advertisements to promote available commercial spaces, while prospective tenants spend considerable time searc
+[Normal] These traditional approaches may result in delayed transactions, poor record management, limited transparency, and increased costs for both property owners and tenants (UNECA, 2023
+[Normal] In addition, entrepreneurs who wish to share commercial spaces in order to reduce rental expenses have limited opportunities to identify and connect with potential co-tenants throu
+[Normal] Although several online property platforms exist, most of them primarily focus on residential properties and provide limited support for commercial space allocation and rental mana
+[Normal] The absence of a centralized platform dedicated to commercial spaces limits access to real-time information, online applications, reservation services, and efficient communication 
+[Normal] This situation creates a need for a digital solution that improves accessibility, transparency, efficiency, and convenience in the management of commercial rental spaces (World Ban
+[Normal] To address this challenge, this study proposes the development of Smart Plot Hub, a web-based commercial space allocation and rental platform that directly connects property owners
+[Normal] The platform will enable users to search for available commercial spaces, submit rental applications, reserve spaces online, and connect with entrepreneurs interested in sharing re
+[Normal] By digitizing the allocation and rental process, Smart Plot Hub is expected to improve transparency, reduce transaction costs, enhance record management, and support Rwanda's ongoi
+[Heading 2] 1.2 Problem Statement
+[Normal] The process of accessing and managing commercial spaces in Rwanda presents significant challenges for both small business owners and property owners. Many entrepreneurs struggle to
+[Normal] At the same time, property owners face operational difficulties in managing their commercial properties effectively. They often lack efficient systems for tracking vacancies, proce
+[Normal] Furthermore, the current system is characterized by a lack of centralized information on available commercial spaces, limited transparency in pricing, inefficient application and b
+[Heading 2] 1.3 Project Objectives
+[Normal] 1.3.1 General Objective
+[Normal] To design and develop an IoT-based automated mall shopping and billing system that supports efficient product identification, shopping, billing, payment, and exit verification
+[Heading 3] 1.3.2 Specific Objectives
+[Normal] To identify the challenges associated with existing supermarket shopping, product identification, billing, payment, and exit verification processes and determine the requirements f
+[Normal] To develop an integrated web-based shopping and billing system that enables customers to scan products using QR codes, manage digital shopping carts, automatically calculate bills,
+[Normal] To evaluate the developed system in terms of functionality, usability, billing accuracy, transaction processing, QR-code scanning, RFID payment, and IoT-based exit verification.
+[Heading 3] 1.4 Research Questions
+[Normal] What challenges are associated with existing supermarket shopping, product identification, billing, payment, and exit verification processes, and what requirements are necessary fo
+[Normal] How can an integrated web-based shopping and billing system enable customers to scan products using QR codes, manage digital shopping carts, automatically calculate bills, make pay
+[Normal] To what extent does the developed system meet the required standards of functionality, usability, billing accuracy, transaction processing, QR-code scanning, RFID payment, and IoT-
+[Heading 2] 1.5 Significance of the Study
+[pdq2pg_selectionanchorcontainer] For property owners, the platform will simplify the process of managing and advertising their commercial spaces. Instead of relying heavily on physical paperwork, phone calls, or i
+[Normal (Web)] For tenants, the system will make the search for commercial spaces much easier and more efficient. Users will be able to browse available properties, filter options based on their 
+[Normal (Web)] For government and regulatory bodies, the platform will serve as a useful source of organized and up-to-date data regarding commercial real estate activities. This information can 
+[Normal (Web)] For brokers and intermediaries, although the platform may reduce reliance on traditional middlemen, it also creates new opportunities for those who adapt to digital systems. Certif
+[Normal (Web)] Finally, for the broader economy, the Smart Plot Hub will contribute to improved access to commercial spaces, which is essential for business growth. When businesses can easily fin
+[Heading 2] 1.6 Scope of the Project
+[Normal] In terms of context, this project focuses on the design and development of Smart Plot, a web-based commercial space allocation and rental platform aimed at improving the rental pro
+[Normal] Geographically, the project will be conducted in Rwanda, with particular emphasis on urban and peri-urban areas where the demand for commercial rental spaces is relatively high. Th
+[Heading 2] 1.7 Limitations of the study
+[Normal] This study has several limitations that may influence the development and evaluation of the Smart Plot platform. Firstly, the project is limited to the Rwandan market, particularly
+[Normal] Secondly, the project is constrained by the available time and budget. Since the study is scheduled to be completed within three months, from June to August 2026, some advanced fea
+[Normal] Lastly, the study may face challenges in collecting sufficient data and user feedback from commercial plot owners and tenants. Limited access to participants and varying levels of 
+[Heading 1] CHAPTER II: LITERATURE REVIEW
+[Heading 2] 2.0 Introduction
+[isselectedend] Digital transformation has significantly reshaped the way services are delivered across different sectors by improving efficiency, transparency, and access to real-time information
+[isselectedend] In the real estate and property management sector, digital platforms have introduced new ways of listing, searching, and managing properties, reducing the need for physical visits 
+[isselectedend] Despite global advancements, developing countries continue to face challenges in fully adopting digital real estate solutions due to infrastructure limitations, low system integrat
+[isselectedend] In Rwanda, digital transformation has been prioritized through national strategies aimed at building a knowledge-based economy and improving service delivery through technology (Go
+[isselectedend] Existing property platforms in Rwanda mainly focus on residential housing and do not adequately support commercial space allocation, real-time vacancy updates, or structured rental
+[isselectedend] Therefore, there is a clear need for a centralized web-based system that integrates commercial space listing, search, booking, and database management into a single platform. This 
+[Heading 2] 2.1 Definition of Key Concepts
+[Heading 4] 2.1.1 Commercial real estate spaces
+...truncated...
+
+================================================================================
+three-chapters.docx paras 488 tables 2
+[Normal] SMART SCAN : AN IoT-BASED AUTOMATED MALL SHOPPING AND BILLING SYSTEM
+[Normal] CASE STUDY: SIMBA SUPERMARKET, GISHUSHU BRANCH, KIGALI
+[Normal] By
+[Normal] Clement Amundala
+[Normal] Registration Number: 2309001612
+[Normal] Under the guidance and supervision of
+[Normal] Dr. Eustache Uwimana
+[Normal] A Research Proposal Submitted in Partial Fulfillment of the Requirements for the Award of a Bachelor's Degree in Business Information and Technology (BBIT), submitted to the School
+[Normal] September, 2026
+[Heading 1] DECLARATION
+[Body Text] I, Clement Amundala   hereby declare that this research project titled "AN IoT-BASED AUTOMATED MALL SHOPPING AND BILLING SYSTEM
+[Body Text] " is my original work. It has not been submitted before for any academic award at this or any other institution. All sources of information and references have been properly acknow
+[Body Text] Signature:
+[Body Text] Name: Clement Amundala
+[Body Text] RegistrationNumber: 2309001612
+[Body Text] Date:
+[Heading 1] APPROVAL
+[Body Text] I, Dr. EUSTACHE UWIMANA certify that this research project entitled ôAN IoT-BASED AUTOMATED MALL SHOPPING AND BILLING SYSTEMö is an original study conducted by
+[Body Text] under my supervision and guidance.
+[Body Text] Signature:
+[Body Text] Date:
+[toc 1] TABLE OF CONTENT
+[toc 1] DECLARATION	2
+[toc 1] APPROVAL	3
+[toc 1] List of Table	7
+[toc 1] ABSTRACT	8
+[toc 1] CHAPTER I: GENERAL INTRODUCTION	9
+[toc 2] 1.0 Introduction	9
+[toc 2] 1.1 Background	11
+[toc 3] Global Context	11
+[toc 3] Regional Context	12
+[toc 3] Local Context	13
+[toc 2] 1.2 Problem Statement	14
+[toc 2] 1.3 Project Objectives	16
+[toc 3] 1.3.1 General Objective	16
+[toc 3] 1.3.2 Specific Objectives	16
+[toc 2] 1.5 Significance of the Study	17
+[toc 3] Customers	17
+[toc 3] Supermarket and Mall Management	18
+[toc 3] Cashiers	18
+[toc 3] System Administrators	18
+[toc 3] Retail Sector	19
+[toc 3] Researchers and Students	19
+[toc 2] 1.6 Scope of the Project	19
+[toc 3] Content Scope	19
+[toc 3] Geographical Scope	20
+[toc 3] Technological Scope	20
+[toc 3] Functional Scope	21
+[toc 2] 1.7 Limitations of the Study	21
+[toc 1] CHAPTER II: LITERATURE REVIEW	23
+[toc 2] 2.0 Introduction	23
+[toc 2] 2.1 Definition of Key Concepts	24
+[toc 3] 2.1.1 Internet of Things (IoT)	24
+[toc 3] 2.1.2 QR Code Technology	25
+[toc 3] 2.1.3 Radio Frequency Identification (RFID)	26
+[toc 3] 2.1.4 Automated Billing System	27
+[toc 3] 2.1.5 Smart Shopping System	28
+[toc 3] 2.1.6 Point-of-Sale (POS) System	29
+[toc 3] 2.1.7 Electronic Payment	30
+[toc 3] 2.1.8 Digital Shopping Cart	30
+[toc 3] 2.1.9 Digital Receipt	31
+[toc 3] 2.1.10 Automatic Identification and Data Capture	32
+[toc 3] 2.1.11 Real-Time Inventory Management	33
+[toc 3] 2.1.12 IoT-Based Exit Verification	34
+[toc 2] 2.2 Empirical Review	35
+[toc 3] 2.2.1 Global Perspective	35
+[toc 3] 2.2.2 African Perspective	37
+[toc 3] 2.2.3 East African Perspective	38
+[toc 3] 2.2.4 Rwandan Perspective	39
+[toc 3] 2.2.5 Comparative Synthesis of African and East African Studies	41
+[toc 2] 2.4 Revised Research Gap	42
+[toc 2] 2.5 Conceptual Framework Based on System Users	43
+[toc 3] 2.5.1 Customer	43
+[toc 3] 2.5.2 Cashier	44
+[toc 3] 2.5.3 Supermarket Manager	44
+[toc 3] 2.5.4 Administrator	45
+[toc 3] 2.5.5 Interaction Among System Users	45
+[toc 2] Diagram of conceptual frame work	46
+[toc 2] 2.6 Chapter Summary	47
+[toc 1] CHAPTER III: RESEARCH METHODOLOGY	48
+[toc 2] 3.0 Introduction	48
+[toc 2] 3.1 Research Design	48
+[toc 2] 3.2 Target Population	49
+[toc 2] 3.2 Target Population	50
+[toc 2] 3.4 Tools for Data Collection	51
+[toc 2] 3.5 Presentation and Analysis of Data	52
+[toc 2] 3.6 Validity and Reliability	53
+[toc 2] 3.7 Ethical Consideration	53
+[toc 1] References	54
+[Heading 1] List of Figure
+[table of figures] Figure 1 : conceptual framework 	46
+[Heading 1] List of Table
+[table of figures] Table 1 : Target Population	50
+[table of figures] Table 2 :Sample Size and Sampling Techniques	51
+[Heading 1] ABSTRACT
+[Normal (Web)] The growth of supermarkets and shopping malls has increased the need for faster, more convenient, and automated shopping and billing processes. Traditional shopping and checkout pr
+[Normal (Web)] Keywords: SMARTSCAN, Internet of Things, QR Code, RFID, Automated Billing, Digital Shopping Cart, SMARTSCAN Shopping Card, ESP32, Digital Receipt, Exit Verification.
+[Heading 1] CHAPTER I: GENERAL INTRODUCTION
+[Heading 2] 1.0 Introduction
+[Normal (Web)] The retail and shopping sector has increasingly adopted information and communication technologies to improve the way customers purchase products and the way businesses manage sale
+...truncated...

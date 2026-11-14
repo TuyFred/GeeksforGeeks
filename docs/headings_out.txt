@@ -1,0 +1,152 @@
+﻿
+================================================================================
+CHAPTER-ALL-THREE(1).docx
+[Heading 1] DECLARATION
+[Heading 1] APPROVAL
+[Heading 1] ACKNOWLEDGEMENT
+[Heading 1] ABSTRACT
+[Heading 1] LIST OF Figures
+[Heading 1] List of Tables
+[Heading 1] CHAPTER ONE: GENERAL INTRODUCTION AND BACKGROUND TO THE STUDY
+[Heading 2] 1.0 Introduction
+[Heading 2] 1.1 Background to the Study
+[Heading 2] 1.2 Statement of the Problem
+[Heading 2] 1.3 Objectives of the Study
+[Heading 3] 1.3.1 General Objective
+[Heading 2] 1.3.2 Research Questions
+[Heading 2] 1.4 Significance/Importance of the Study
+[Heading 3] 1.4.1 Road Users
+[Heading 3] 1.4.2 Road Safety and Security Stakeholders
+[Heading 3] 1.4.3 Rwanda Energy Group and Energy Stakeholders
+[Heading 3] 1.4.4 Kigali City and Local Authorities
+[Heading 3] 1.4.5 Engineers and Technologists
+[Heading 3] 1.4.6 Future Researchers
+[Heading 3] 1.4.7 The Academic Community
+[Heading 2] 1.5 Scope of the Study
+[Heading 3] 1.5.1 Content Scope
+[Heading 3] 1.5.2 Time Scope
+[Heading 3] 1.5.3 Geographical Scope
+[Heading 2] 1.6 Limitations
+[Heading 1] CHAPTER TWO: LITERATURE REVIEW
+[Heading 2] 2.0 Introduction
+[Heading 2] 2.1 Conceptual Review
+[Heading 3] 2.1.1 Street Lighting
+[Heading 3] 2.1.2 Conventional Street Lighting
+[Heading 3] 2.1.3 Light-Emitting Diode (LED) Street Lighting
+[Heading 3] 2.1.4 Smart Street Lighting
+[Heading 3] 2.1.5 Internet of Things (IoT) in Street Lighting
+[Heading 3] 2.1.6 Vehicle Movement Detection
+[Heading 3] 2.1.7 External-Light Sensing
+[Heading 3] 2.1.8 Adaptive Street Lighting
+[Heading 3] 2.1.9 Energy Efficiency in Street Lighting
+[Heading 2] 2.2 Theoretical Review
+[Heading 3] 2.2.1 Adaptive Control Theory
+[Heading 3] 2.2.2 Energy-on-Demand Concept
+[Heading 3] 2.2.3 IoT-Based Smart-City Concept
+[Heading 2] 2.3 Empirical Review
+[Heading 3] 2.3.1 Studies on Vehicle Movement-Based Street Lighting
+[Heading 3] 2.3.2 Studies Combining External-Light and Vehicle Sensing
+[Heading 3] 2.3.3 Studies on Advanced Adaptive Street Lighting
+[Heading 3] 2.3.4 Traffic-Adaptive LED Street Lighting
+[Heading 3] 2.3.5 Predictive Adaptive Street Lighting
+[Heading 3] 2.3.6 Traffic-Intensity Adaptive Control
+[Heading 3] 2.3.7 Smart Street Lighting and IoT
+[Heading 3] 2.3.8 Real-Time Dimming Systems
+[Heading 3] 2.3.9 Energy Efficiency and IoT
+[Heading 3] 2.3.10 Energy Performance of Adaptive Lighting
+[Heading 3] 2.3.11 Adaptive Lighting and Luminaire Lifetime
+[Heading 3] 2.3.12 Recent Research on Energy Savings
+[Heading 3] 2.3.13 Sustainability and Road-Lighting Design
+[Heading 2] 2.4 Smart Street Lighting in Rwanda
+[Heading 2] 2.5 Critical Review of Previous Studies
+[Heading 2] 2.6 Research Gap
+[Heading 3] 2.6.1 Geographical Gap
+[Heading 3] 2.6.2 Technology Gap
+[Heading 3] 2.6.3 External-Light and Vehicle-Detection Integration Gap
+[Heading 3] 2.6.4 Experimental Energy-Performance Gap
+[Heading 3] 2.6.5 Practical Implementation Gap
+[Heading 2] 2.7 Conceptual Framework
+[Heading 1] 2.8 Summary of the Literature Review
+[Heading 1] CHAPTER THREE: RESEARCH METHODOLOGY
+[Heading 2] 3.0 Introduction
+[Heading 2] 3.1 Research Design
+[Heading 2] 3.2 Population and Selection of the Sample
+[Heading 3] 3.2.1 Sample Size and Sampling Technique
+[Heading 3] Proposed Population and Sample Selection Table
+[Heading 2] 3.3 Data Collection Instruments
+[Heading 2] 3.4 Data Collection Procedure
+[Heading 2] 3.5 Data Analysis and Presentation
+[Heading 2] 3.6 Validity and Reliability
+[Heading 2] 3.7 Ethical Considerations
+[Heading 1] REFERENCES
+
+================================================================================
+PRINT_FINAL PROJECT (3) (1).docx
+[Heading 1] DECLARATION
+[Heading 1] APPROVAL
+[Heading 1] LIST OF FIGURES
+[Heading 1] LIST OF TABLES
+[Heading 1] ABSTRACT
+[Heading 1] CHAPTER I: GENERAL INTRODUCTION
+[Heading 2] Introduction
+[Heading 2] 1.1 Background
+[Heading 2] 1.2 Problem Statement
+[Heading 2] 1.3 Project Objectives
+[Heading 3] 1.3.2 Specific Objectives
+[Heading 3] 1.4 Research Questions
+[Heading 2] 1.5 Significance of the Study
+[Heading 2] 1.6 Scope of the Project
+[Heading 2] 1.7 Limitations of the study
+[Heading 1] CHAPTER II: LITERATURE REVIEW
+[Heading 2] 2.0 Introduction
+[Heading 2] 2.1 Definition of Key Concepts
+[Heading 4] 2.1.1 Commercial real estate spaces
+[Heading 4] 2.1.2 Commercial space allocation
+[Heading 4] 2.1.3 Rental platform
+[Heading 4] 2.1.4 Web-based system
+[Heading 4] 2.1.5 Property owner
+[Heading 4] 2.1.6 Tenant
+[Heading 4] 2.1.7 Digital booking
+[Heading 4] 2.1.8 Centralized database
+[Heading 2] 2.2 Empirical Review
+[Heading 2] 2.3 Theoretical Review
+[Heading 2] 2.3 Summary of the gap
+[Heading 2] 2.4 Conceptual framework
+[Heading 1] CHAPTER III: PROJECT METHODOLOGY
+[Heading 2] 3.0 Introduction
+[Heading 2] 3.1 Research design
+[Heading 2] 3.2 Target population
+[Heading 2] 3.3 Sample size
+[Heading 2] 3.4 Tools for data collection
+[Heading 4] 3.4.1 Questionnaires
+[Heading 4] 3.4.2 Interviews
+[Heading 4] 3.4.3 Observation
+[Heading 4] 3.4.4 Document Review
+[Heading 2] 3.5 Presentation of data and analysis of data
+[Heading 4] 3.5.1 Data Presentation
+[Heading 4] 3.5.2 Data Analysis
+[Heading 2] 3.6 Validity and reliability
+[Heading 4] 3.6.1 Validity
+[Heading 4] 3.6.2 Reliability
+[Heading 2] 3.7 Ethical consideration
+[Heading 1] CHAPTER IV: SYSTEM ANALYSIS, DESIGN, AND        IMPLTEMENTATION
+[Heading 2] Introduction
+[Heading 2] Data analysis and presentation
+[Heading 2] Interpretation of findings
+[Heading 2] Summary of findings
+[Heading 2] Description of existing systems
+[Heading 2] Description of new system
+[Heading 2] Illustration of new system
+[Heading 2] 4.8 Architecture of the Front End of System
+[Heading 2] 4.9 Implementation and coding
+[Heading 2] Testing
+[Heading 1] CHAPTER V: CONCLUSION AND RECOMMENDATIONS
+[Heading 2] 5.0 Introduction
+[Heading 2] Conclusions
+[Heading 2] Recommendations
+[Heading 2] 5.3 Areas for further research
+[Heading 2] REFERENCE
+[Heading 1] APPENDICES
+
+================================================================================
+profile.docx
